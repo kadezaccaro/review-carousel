@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+body {
+  background-color: lightyellow;
+}
+
+main {
+  display: grid;
+  height: 100vh;
+  place-content: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 76px;
+  line-height: 76px;
+  font-weight: normal;
+}
+
+#author {
+  font-size: 29px;
+  text-transform: capitalize;
+  margin: 16px 0px 8px 0px;
+}
+
+#job {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: gray;
+  font-weight: normal;
+}
+
+.fas.fa-quote-left {
+  margin-top: 16px;
+}
+
+p {
+  font-size: 19px;
+  line-height: 30px;
+  margin: 16px 0px;
+}
+
+.line {
+  width: 56px;
+  height: 2px;
+  border-style: none;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 58px;
+  margin-bottom: 56px;
+}
+
+article {
+  background-color: white;
+  width: 600px;
+  padding: 56px;
+  border-radius: 8px;
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+picture {
+  display: block;
+  position: relative;
+  height: 196px;
+  width: 196px;
+  margin: 0 auto;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 19px;
+  border: none;
+  transition: 0.3s;
+  border-radius: 4px;
+  margin: 8px;
+  padding: 4px 8px 4px 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.75;
+  background-color: lightblue;
+  transform: translate(0, -2px);
+}
+
+.prev-btn,
+.next-btn {
+  margin-top: 0;
+}
+
+.random-btn {
+  margin-bottom: 0;
+}
